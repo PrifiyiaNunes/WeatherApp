@@ -39,6 +39,7 @@ extension WeatherViewController: UITextFieldDelegate {
         }
     }
     func textFieldDidEndEditing(_ textField: UITextField) {
+        print(textField.text)
         textField.text = ""
     }
 }
